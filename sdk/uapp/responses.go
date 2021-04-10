@@ -213,6 +213,9 @@ type GetDurationsResp struct {
 		Value   int     `json:"value"`
 		Percent float64 `json:"percent"`
 	} `json:"durationInfos"`
+
+	//平均使用时长
+	Average float64 `json:"average"`
 }
 
 type GetLaunchesResp struct {
