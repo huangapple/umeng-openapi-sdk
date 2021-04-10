@@ -209,9 +209,9 @@ type GetRetentionsResp struct {
 
 type GetDurationsResp struct {
 	DurationInfos []struct {
-		Name    string `json:"name"`
-		Value   int    `json:"value"`
-		Percent string `json:"percent"`
+		Name    string  `json:"name"`
+		Value   int     `json:"value"`
+		Percent float64 `json:"percent"`
 	} `json:"durationInfos"`
 }
 
