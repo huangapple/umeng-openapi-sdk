@@ -1,11 +1,11 @@
 package uapp
 
 import (
-	"github.com/shfc/umeng-openapi-sdk/sdk/uapp"
+	"github.com/huangapple/umeng-openapi-sdk/sdk/uapp"
 	"net/url"
 	"strconv"
 
-	"github.com/shfc/umeng-openapi-sdk/sdk"
+	"github.com/huangapple/umeng-openapi-sdk/sdk"
 )
 
 func NewUAppClient(apiKey, apiSecurity string) *UAppClient {

@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	sdkErr "github.com/shfc/umeng-openapi-sdk/sdk/errors"
-	"github.com/shfc/umeng-openapi-sdk/sdk/utils"
+	sdkErr "github.com/huangapple/umeng-openapi-sdk/sdk/errors"
+	"github.com/huangapple/umeng-openapi-sdk/sdk/utils"
 )
 
 func CreateUmengClient(apiKey, apiSecurity string) *UmengClient {
