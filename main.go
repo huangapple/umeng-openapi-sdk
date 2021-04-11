@@ -8,9 +8,9 @@ import (
 )
 
 var (
-	apiKey      = "7785319"
-	apiSecurity = "8KIcW4Zd37b"
-	appKey      = "5fe567c9adb42d58268e0f73"
+	apiKey      = ""
+	apiSecurity = ""
+	appKey      = ""
 )
 
 func DumpObj(i interface{}, perfect bool) {
